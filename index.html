@@ -67,11 +67,6 @@
         td {
             background: #1a1a1a;
         }
-        .note {
-            font-size: 0.9em;
-            color: #ff6666;
-            font-style: italic;
-        }
         .highlight {
             color: #ff00ff;
             font-weight: bold;
@@ -112,17 +107,17 @@
     <div class="container">
         <h1>PixelFight 게임 설명서</h1>
         <p>
-            PixelFight는 2D 픽셀 스타일의 1:1 대전 게임입니다. 당신의 목표는 고대 신화 속 존재, <span class="highlight">"픽셀"</span>들 중 하나를 선택하여 상대방의 체력(HP)을 0으로 만들어 승리하는 것 입니다.
+            PixelFight는 2D 픽셀 스타일의 1:1 대전 게임입니다. 당신은 고대 신화 속 존재, <span class="highlight">"픽셀"</span>들 중 하나를 선택하여 상대방의 체력(HP)을 0으로 만들어 승리하는 것이 목표입니다.
         </p>
 
         <h2>게임 시작 및 조작 방법</h2>
 
         <h3>게임 시작</h3>
-        <ol>
+        <ul>
             <li><strong>픽셀 선택</strong>: Player 1은 A/D 키, Player 2는 왼쪽/오른쪽 화살표 키로 선택합니다.</li>
             <li><strong>게임 시작</strong>: 선택 후 Enter 키를 누릅니다.</li>
             <li><strong>자동 플레이</strong>: 게임 중 Enter 키를 다시 누르면 가상의 픽셀과의 대전 모드가 활성화됩니다.</li>
-        </ol>
+        </ul>
 
         <h3>조작 방법</h3>
         <table>
@@ -130,49 +125,41 @@
                 <th>조작</th>
                 <th>Player 1 (왼쪽)</th>
                 <th>Player 2 (오른쪽)</th>
-                <th>비고</th>
             </tr>
             <tr>
                 <td><strong>이동</strong></td>
                 <td>A (좌), D (우)</td>
                 <td>← (좌), → (우)</td>
-                <td></td>
             </tr>
             <tr>
                 <td><strong>점프</strong></td>
                 <td>W</td>
                 <td>↑</td>
-                <td></td>
             </tr>
             <tr>
                 <td><strong>다운</strong></td>
                 <td>S</td>
                 <td>↓</td>
-                <td></td>
             </tr>
             <tr>
                 <td><strong>대시</strong></td>
                 <td>A 또는 D를 빠르게 두 번 입력</td>
                 <td>← 또는 →를 빠르게 두 번 입력</td>
-                <td class="note"><strong>더블탭</strong>으로 발동</td>
             </tr>
             <tr>
                 <td><strong>스킬 I</strong></td>
                 <td>F</td>
                 <td>1</td>
-                <td></td>
             </tr>
             <tr>
                 <td><strong>스킬 II</strong></td>
                 <td>G</td>
                 <td>2</td>
-                <td></td>
             </tr>
             <tr>
                 <td><strong>스킬 III</strong></td>
                 <td>H</td>
                 <td>3</td>
-                <td></td>
             </tr>
         </table>
 
@@ -250,6 +237,11 @@
             <li><strong>특수 효과</strong>: 화상, 얼음, 기절(입력 불가), 무적 등이 존재합니다.</li>
             <li><strong>재시작</strong>: 게임 종료시 Enter 키로 재시작 가능합니다.</li>
         </ul>
+
+        <div class="footer">
+            <p>PixelFight는 순수 HTML5 Canvas 기반으로 제작된 오픈소스 게임입니다.<br>
+            별도의 설치 없이 브라우저에서 즉시 실행 가능합니다.</p>
+        </div>
 
         <a href="index.html" class="back-btn">게임 시작하기</a>
     </div>
