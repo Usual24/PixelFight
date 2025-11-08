@@ -1,5 +1,6 @@
 ## PixelFight By Usual24
-
+KR: https://github.com/Usual24/PixelFight/blob/main/README.md  
+  
 PixelFight is a 2D pixel-style fighting game. Your goal is to become an ancient mythical being — choose one of the "Pixels" and defeat your enemies by reducing their Heart to zero.
 
 ---
