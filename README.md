@@ -1,5 +1,5 @@
 ## PixelFight 게임 설명서
-
+EN: <https://github.com/Usual24/PixelFight/blob/main/README-EN.md>
 PixelFight는 2D 픽셀 스타일의 1:1 대전 게임입니다. 당신의 목표는 고대 신화 속 존재, "픽셀"들 중 하나를 선택하여 상대방의 체력(HP)을 0으로 만들어 승리하는 것 입니다.
 
 ---
